@@ -1,17 +1,20 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+<?php 
+$_SESSION["saludo"]="Hola Mundo";
+
+        
+?>
 <html>
     <head>
         <meta charset="UTF-8">
         <title></title>
     </head>
     <body>
-        <?php
-        // put your code here
+       
+        <a href="revision.php"> Revisi&oacute;n sesi&oacute;n</a>
+        <?php 
+        echo md5('#holamundo&');
+        echo '<br>';
         ?>
     </body>
 </html>
