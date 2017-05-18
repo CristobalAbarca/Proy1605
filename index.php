@@ -26,7 +26,7 @@ var_dump($_SESSION);
             
         </form>
         <?php  } ?>
-        <h1> Ejemplos de encriptacion con el HASH MD5</h1>
+        <h1> Ejemplos de encriptacion con el HASH MD5  </h1>
         <?php
         echo md5('#holamundo&');
         echo '<br>';
